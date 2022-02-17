@@ -80,7 +80,6 @@ As a means of validating our model, we tested for the assumptions of linear regr
 
 ## For More Information
 View the full analysis via the [Jupyter Notebook](https://github.com/sgchatrathi/Real-Estate-Project-analysis/blob/main/Main%20Notebook.ipynb).
-View the full presentation via the our [slides](https://github.com/sgchatrathi/Real-Estate-Project-analysis/blob/main/Presentation.ipynb).
 
 
 
