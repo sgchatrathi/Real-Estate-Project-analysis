@@ -47,26 +47,28 @@ Our third model wanted to take advantage of the recursive feature elimination th
 
 ### Model 4
 
+From the heat map analysis, we wanted to see which variables had high multicollinearity. Multicollinearity occurs when more than one independent variable is highly correlated with another one in the regression model. An independent variable can be predicted from another independent variable in a regression model, which can convey some inaccuracies in the overall dataset. From our heat map we saw high multicollinearity between bathrooms and sqft_living, so we decided to feature engineer a ratio of floor to bathrooms to compensate for that factor. The R-squared value of Model 4 is 0.535 which is an improvement on Model 3. This tells us that our x-variables account for 54% of variability in house sale price. 
 
 ### Final Model
+
+For Model 5 decided to add yr_built to the independent variables used in Model 4 as we anticipated that we could improve our model by taking the age of the home into account. yr_built was also ranked as the third most important variable during our recursive feature analysis. Ultimately, our final model explored the continuous independent variables of bedrooms, floor_to_bath, sqft_living, and yr_built as well as the categorical independent variable of condition. Our final model was built to optimize R-squared with as few features as possible. 
 
 
 
 ## Regression Results
 
-
-
-
+Ultimately the R-squared value of Model 5 (our final model) is 0.564 which is best for all the models run. This tells us that our x-variables account for 56% of variability in house sale price with a root mean squared error of $240146.63. In terms of feature coefficients with all other features held constant, home values drop 62863.31 for every 1 bedroom, increase 60,136.22 for every 1 unit increase in floor-to-bathroom ratio, increase $347.16 for every square foot, increase 2,245.52 for every year the house ages, decrease $7,7720.71 if categorized as poor condition, decrease $69,601.81 if categorized as fair condition, increase $2,779.43 if categorized as good condition, and increase $4,6333.11 if categorized as very good condition.
 
 
 
 ### Post Model Assumptions
 
-As a means of validating our model, we tested for the assumptions of linear regression.
+As a means of validating our model, we tested for the assumptions of linear regression. These assumptions include, Linearity, Multicollinearity (checked before modeling), a Normal Distribution of Errors, and Heteroskedasticity or a lack of trend in errors. 
 
-Check Normal Distributions of Input Variables
-Heteroskedasticity - lack of trend in errors
-Linearity and Multicollinearity - are input variables too closely correlated
+
+
+
+
 
 
 ### Conclusions and Key Takeaways
