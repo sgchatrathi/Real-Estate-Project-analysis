@@ -78,7 +78,9 @@ As a means of validating our model, we tested for the assumptions of linear regr
 
 
 
-
+## For More Information
+View the full analysis via the [Jupyter Notebook](https://github.com/Noptov/DS-Project-1/blob/main/MainDF.ipynb).
+View the full presentation via the our [slides](https://github.com/Noptov/DS-Project-1/blob/main/MainDF.ipynb).
 
 
 
