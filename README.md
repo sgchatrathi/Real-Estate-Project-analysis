@@ -75,7 +75,7 @@ As a means of validating our model, we tested for the assumptions of linear regr
 
 Based on our analyses we recommend homeowners focus on three key actions to increase the value of their home via renovations.
 
-1. Upgrade appliances as well as the fit and finish on the home.
+1. Upgrade appliances as well as the fit and finish to improve the condition of the home.
 2. Do not add bedrooms in the renovation.
 3. Increase the floor-to-bathrooms ratio to further drive up the value of the home.
 
