@@ -5,7 +5,7 @@
 ![from giphy](https://media.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif)
 
 
-Authors:  Samira Chatrathi, Andrew Choi, and Richard Hinds
+Authors:  Samira Chatrathi, Andrew Choi, and Richard Hinds[https://github.com/RH3421]
 
 ## Business Problem
 The Real Estate Market is undoubtedly, one of high volatility. Whether it is rooted in a housing bubble or located within a very concentrated region, housing value is determined by a wide-array of factors outside of an individuals control. We, ultimately, strive as a data science team to see what factors we can encourage our stakeholder to consider when making decisions as to what to prioritize within a home rennovation. We are analyzing from the point of view of a homeowner and private flipper in King County, Washington looking to increase the value of their home through controllable factors. Our value is defined as the overall price of the home, and our variables are iterated over five models to see how some factors change the overall value. Not only will our modeling and analysis help our stakeholder understand King County specifically, but it will also provide inferential understanding to help them decide which aspects of home rennovation can give them the best return on investment.
