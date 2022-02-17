@@ -34,7 +34,7 @@ Our first model contained a list of all of the continuous variables we kept from
 
 ### Model 2
 
-Our iteration of only having one variable (Square-Foot Living) in Model 2 was to see how this would effect our overall R-Squared value. From the heatmap correlation table we were able to see that Square-Foot Living was the variable that had the highest correlation (0.7) with price. After conducting the model, The R-squared value of Model 2 proved to be  0.498 which is an improvement on Model 1. This tells us that our x-variable (sqft_living) accounts for 50% of variability in home sale price. Our RMSE was $254336.12, a %1.7 increase from our prior model, showing us that this model is off by the aforementioned dollar amount.
+Our iteration of only having one variable (Square-Foot Living) in Model 2 was to see how this would effect our overall R-Squared value. From the heatmap correlation table we were able to see that Square-Foot Living was the variable that had the highest correlation (0.7) with price. After conducting the model, The R-squared value of Model 2 proved to be  0.498 which is an improvement on Model 1. This tells us that our x-variable (sqft_living) accounts for 50% of variability in home sale price. Our RMSE was $254336.12, a 1.7% increase from our prior model, showing us that this model is off by the aforementioned dollar amount.
 
 
 
