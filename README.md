@@ -17,7 +17,7 @@ We used home sales data for King County, Washington which had a population of 2.
 
 ### Methods
 
-We used Scikit Learn as well as Sci-py to validate that our model 
+We used Scikit Learn as well as Sci-py to validate that our model. 
 
 
 ## Modeling
