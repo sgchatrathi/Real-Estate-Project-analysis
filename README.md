@@ -63,12 +63,15 @@ Ultimately the R-squared value of Model 5 (our final model) is 0.564 which is be
 
 ### Post Model Assumptions
 
-As a means of validating our model, we tested for the assumptions of linear regression. These assumptions include, Linearity, Multicollinearity (checked before modeling), a Normal Distribution of Errors, and Heteroskedasticity or a lack of trend in errors. 
+
+Heteroscedasticity is defined by an unequal representation of scatter. This factor is important to consider in the context of residuals because it shows a trend in the spread of the residuals. Heteroscedasticity becomes a probles within ordinary least squares regression because it assumes that all residuals are drawn from a population with constant variance. We do see a slight trend in this case. 
+
+<img width="465" alt="Screen Shot 2022-02-18 at 8 25 43 AM" src="https://user-images.githubusercontent.com/97462844/154713961-818a13b0-1ed4-448c-a537-8f5908c8c888.png">
 
 
+We can say from the image below that there is normality amongst our residuals as it is an assumption of running a linear model. Since the residuals of model are normal we can say that our assumptions are valid, so model predictions should be considered valid as well. 
 
-
-
+<img width="425" alt="Screen Shot 2022-02-18 at 8 25 52 AM" src="https://user-images.githubusercontent.com/97462844/154713975-8ccdb0a5-f41f-4f58-80a4-4c3bf8515a22.png">
 
 
 ### Conclusions and Key Takeaways
@@ -78,7 +81,6 @@ Based on our analyses we recommend homeowners focus on three key actions to incr
 1. Upgrade appliances as well as the fit and finish to improve the condition of the home.
 2. Do not add bedrooms in the renovation.
 3. Increase the floor-to-bathrooms ratio to further drive up the value of the home.
-
 
 
 
